@@ -11,20 +11,23 @@ public class MyAccountPage extends SeleniumWrappers {
 
     public MyAccountPage(WebDriver driver) {
         super(driver);
-        PageFactory.initElements(driver,this);
+        PageFactory.initElements(driver, this);
     }
 
-    @FindBy(id="username")
+    @FindBy(id = "username")
     public WebElement usernameField;
-    @FindBy(id="password")
+    @FindBy(id = "password")
     public WebElement passwordField;
-    @FindBy(name="login")
+    @FindBy(name = "login")
     public WebElement signInButton;
 
-    @FindBy(css="div[class='woocommerce-MyAccount-content']")
+    @FindBy(css = "div[class='woocommerce-MyAccount-content']")
     public WebElement greetingsMessage;
 
-    public void loginInApp(String user, String pass){
+    @FindBy(linkText = "Log out")
+    public WebElement logOutButton;
+
+    public void loginInApp(String user, String pass) {
         sendKeys(usernameField, user);
         sendKeys(passwordField, pass);
         click(signInButton);
