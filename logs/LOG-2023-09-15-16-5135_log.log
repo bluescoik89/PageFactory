@@ -1,0 +1,30 @@
+16:51:35.883 [TestNG-tests-1] INFO  utils.Log - Chrome --> Thread id : 26
+16:51:37.930 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++
+16:51:37.931 [TestNG-tests-1] INFO  utils.Log - Started test case :login
+16:51:37.931 [TestNG-tests-1] INFO  utils.Log - Start time :2023.09.15.16.37
+16:51:37.931 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++
+16:51:37.932 [TestNG-tests-1] INFO  utils.Log - Called method<click> on  
+16:51:38.587 [TestNG-tests-1] INFO  utils.Log - called method <sendKeys> on element <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="">
+16:51:38.587 [TestNG-tests-1] INFO  utils.Log - Called method <waitForElementToBeVisible> on locator :
+16:51:38.707 [TestNG-tests-1] INFO  utils.Log - called method <sendKeys> on element <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password">
+16:51:38.707 [TestNG-tests-1] INFO  utils.Log - Called method <waitForElementToBeVisible> on locator :
+16:51:38.796 [TestNG-tests-1] INFO  utils.Log - Called method<click> on  
+16:51:39.934 [TestNG-tests-1] INFO  utils.Log - Called method<click> on  
+16:51:41.081 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++
+16:51:41.081 [TestNG-tests-1] INFO  utils.Log - Passed test case :login
+16:51:41.081 [TestNG-tests-1] INFO  utils.Log - End time :2023.09.15.16.41
+16:51:41.082 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++
+16:51:41.083 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++
+16:51:41.083 [TestNG-tests-1] INFO  utils.Log - Started test case :loginInvalid
+16:51:41.083 [TestNG-tests-1] INFO  utils.Log - Start time :2023.09.15.16.41
+16:51:41.083 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++
+16:51:41.084 [TestNG-tests-1] INFO  utils.Log - Called method<click> on  
+16:51:41.788 [TestNG-tests-1] INFO  utils.Log - called method <sendKeys> on element <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="">
+16:51:41.789 [TestNG-tests-1] INFO  utils.Log - Called method <waitForElementToBeVisible> on locator :
+16:51:41.889 [TestNG-tests-1] INFO  utils.Log - called method <sendKeys> on element <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password">
+16:51:41.890 [TestNG-tests-1] INFO  utils.Log - Called method <waitForElementToBeVisible> on locator :
+16:51:41.971 [TestNG-tests-1] INFO  utils.Log - Called method<click> on  
+16:51:42.623 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++
+16:51:42.623 [TestNG-tests-1] INFO  utils.Log - Passed test case :loginInvalid
+16:51:42.623 [TestNG-tests-1] INFO  utils.Log - End time :2023.09.15.16.42
+16:51:42.623 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++

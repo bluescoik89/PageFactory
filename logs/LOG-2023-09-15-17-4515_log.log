@@ -1,0 +1,92 @@
+17:45:15.521 [TestNG-tests-2] INFO  utils.Log - Chrome --> Thread id : 29
+17:45:17.523 [TestNG-tests-2] INFO  utils.Log - ++++++++++++++++++
+17:45:17.523 [TestNG-tests-2] INFO  utils.Log - Started test case :login
+17:45:17.524 [TestNG-tests-2] INFO  utils.Log - Start time :2023.09.15.17.17
+17:45:17.524 [TestNG-tests-2] INFO  utils.Log - +++++++++++++++++++
+17:45:17.525 [TestNG-tests-2] INFO  utils.Log - Called method<click> on  
+17:45:17.715 [TestNG-tests-1] INFO  utils.Log - Chrome --> Thread id : 28
+17:45:18.202 [TestNG-tests-2] INFO  utils.Log - called method <sendKeys> on element <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="">
+17:45:18.202 [TestNG-tests-2] INFO  utils.Log - Called method <waitForElementToBeVisible> on locator :
+17:45:18.335 [TestNG-tests-2] INFO  utils.Log - called method <sendKeys> on element <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password">
+17:45:18.335 [TestNG-tests-2] INFO  utils.Log - Called method <waitForElementToBeVisible> on locator :
+17:45:18.429 [TestNG-tests-2] INFO  utils.Log - Called method<click> on  
+17:45:19.644 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++
+17:45:19.645 [TestNG-tests-1] INFO  utils.Log - Started test case :login
+17:45:19.645 [TestNG-tests-1] INFO  utils.Log - Start time :2023.09.15.17.19
+17:45:19.645 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++
+17:45:19.646 [TestNG-tests-1] INFO  utils.Log - Called method<click> on  
+17:45:19.949 [TestNG-tests-2] INFO  utils.Log - Called method<click> on  
+17:45:20.873 [TestNG-tests-1] INFO  utils.Log - called method <sendKeys> on element <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="">
+17:45:20.874 [TestNG-tests-1] INFO  utils.Log - Called method <waitForElementToBeVisible> on locator :
+17:45:21.020 [TestNG-tests-1] INFO  utils.Log - called method <sendKeys> on element <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password">
+17:45:21.020 [TestNG-tests-1] INFO  utils.Log - Called method <waitForElementToBeVisible> on locator :
+17:45:21.142 [TestNG-tests-1] INFO  utils.Log - Called method<click> on  
+17:45:21.305 [TestNG-tests-3] INFO  utils.Log - Edge --> Thread id : 30
+17:45:21.309 [TestNG-tests-2] INFO  utils.Log - ++++++++++++++++++
+17:45:21.310 [TestNG-tests-2] INFO  utils.Log - Passed test case :login
+17:45:21.310 [TestNG-tests-2] INFO  utils.Log - End time :2023.09.15.17.21
+17:45:21.310 [TestNG-tests-2] INFO  utils.Log - +++++++++++++++++++
+17:45:21.315 [TestNG-tests-2] INFO  utils.Log - ++++++++++++++++++
+17:45:21.315 [TestNG-tests-2] INFO  utils.Log - Started test case :loginInvalid
+17:45:21.316 [TestNG-tests-2] INFO  utils.Log - Start time :2023.09.15.17.21
+17:45:21.316 [TestNG-tests-2] INFO  utils.Log - +++++++++++++++++++
+17:45:21.316 [TestNG-tests-2] INFO  utils.Log - Called method<click> on  
+17:45:22.226 [TestNG-tests-2] INFO  utils.Log - called method <sendKeys> on element <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="">
+17:45:22.227 [TestNG-tests-2] INFO  utils.Log - Called method <waitForElementToBeVisible> on locator :
+17:45:22.395 [TestNG-tests-2] INFO  utils.Log - called method <sendKeys> on element <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password">
+17:45:22.395 [TestNG-tests-2] INFO  utils.Log - Called method <waitForElementToBeVisible> on locator :
+17:45:22.518 [TestNG-tests-2] INFO  utils.Log - Called method<click> on  
+17:45:23.149 [TestNG-tests-2] INFO  utils.Log - ++++++++++++++++++
+17:45:23.149 [TestNG-tests-2] INFO  utils.Log - Passed test case :loginInvalid
+17:45:23.150 [TestNG-tests-2] INFO  utils.Log - End time :2023.09.15.17.23
+17:45:23.150 [TestNG-tests-2] INFO  utils.Log - +++++++++++++++++++
+17:45:23.692 [TestNG-tests-3] INFO  utils.Log - ++++++++++++++++++
+17:45:23.692 [TestNG-tests-3] INFO  utils.Log - Started test case :login
+17:45:23.693 [TestNG-tests-3] INFO  utils.Log - Start time :2023.09.15.17.23
+17:45:23.693 [TestNG-tests-3] INFO  utils.Log - +++++++++++++++++++
+17:45:23.693 [TestNG-tests-3] INFO  utils.Log - Called method<click> on  
+17:45:24.146 [TestNG-tests-1] INFO  utils.Log - Called method<click> on  
+17:45:24.846 [TestNG-tests-3] INFO  utils.Log - called method <sendKeys> on element <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="">
+17:45:24.846 [TestNG-tests-3] INFO  utils.Log - Called method <waitForElementToBeVisible> on locator :
+17:45:24.984 [TestNG-tests-3] INFO  utils.Log - called method <sendKeys> on element <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password">
+17:45:24.984 [TestNG-tests-3] INFO  utils.Log - Called method <waitForElementToBeVisible> on locator :
+17:45:25.082 [TestNG-tests-3] INFO  utils.Log - Called method<click> on  
+17:45:25.506 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++
+17:45:25.507 [TestNG-tests-1] INFO  utils.Log - Passed test case :login
+17:45:25.507 [TestNG-tests-1] INFO  utils.Log - End time :2023.09.15.17.25
+17:45:25.507 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++
+17:45:25.508 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++
+17:45:25.508 [TestNG-tests-1] INFO  utils.Log - Started test case :loginInvalid
+17:45:25.509 [TestNG-tests-1] INFO  utils.Log - Start time :2023.09.15.17.25
+17:45:25.509 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++
+17:45:25.509 [TestNG-tests-1] INFO  utils.Log - Called method<click> on  
+17:45:26.375 [TestNG-tests-1] INFO  utils.Log - called method <sendKeys> on element <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="">
+17:45:26.375 [TestNG-tests-1] INFO  utils.Log - Called method <waitForElementToBeVisible> on locator :
+17:45:26.425 [TestNG-tests-1] INFO  utils.Log - called method <sendKeys> on element <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password">
+17:45:26.425 [TestNG-tests-1] INFO  utils.Log - Called method <waitForElementToBeVisible> on locator :
+17:45:26.457 [TestNG-tests-3] INFO  utils.Log - Called method<click> on  
+17:45:26.459 [TestNG-tests-1] INFO  utils.Log - Called method<click> on  
+17:45:27.007 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++
+17:45:27.007 [TestNG-tests-1] INFO  utils.Log - Passed test case :loginInvalid
+17:45:27.008 [TestNG-tests-1] INFO  utils.Log - End time :2023.09.15.17.27
+17:45:27.008 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++
+17:45:27.589 [TestNG-tests-3] INFO  utils.Log - ++++++++++++++++++
+17:45:27.589 [TestNG-tests-3] INFO  utils.Log - Passed test case :login
+17:45:27.589 [TestNG-tests-3] INFO  utils.Log - End time :2023.09.15.17.27
+17:45:27.589 [TestNG-tests-3] INFO  utils.Log - +++++++++++++++++++
+17:45:27.589 [TestNG-tests-3] INFO  utils.Log - ++++++++++++++++++
+17:45:27.589 [TestNG-tests-3] INFO  utils.Log - Started test case :loginInvalid
+17:45:27.589 [TestNG-tests-3] INFO  utils.Log - Start time :2023.09.15.17.27
+17:45:27.589 [TestNG-tests-3] INFO  utils.Log - +++++++++++++++++++
+17:45:27.589 [TestNG-tests-3] INFO  utils.Log - Called method<click> on  
+17:45:27.727 [TestNG-tests-3] ERROR utils.Log - ++++++++++++++++++
+17:45:27.727 [TestNG-tests-3] ERROR utils.Log - Failed test case :loginInvalid
+17:45:27.727 [TestNG-tests-3] ERROR utils.Log - Fail time :2023.09.15.17.27
+17:45:27.727 [TestNG-tests-3] ERROR utils.Log - org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [ca8e7028548064e4a560024aa9787790, findElement {using=link text, value=My account}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 116.0.1938.81, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51206}, msedge: {msedgedriverVersion: 116.0.1938.81 (bc0eb28b55bd..., userDataDir: C:\Users\Home\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51206/devtoo..., se:cdpVersion: 116.0.1938.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ca8e7028548064e4a560024aa9787790
+17:45:27.727 [TestNG-tests-3] ERROR utils.Log - +++++++++++++++++++

@@ -20,10 +20,10 @@ public class MyAccountPage extends SeleniumWrappers {
     public WebElement passwordField;
     @FindBy(name = "login")
     public WebElement signInButton;
-
     @FindBy(css = "div[class='woocommerce-MyAccount-content']")
     public WebElement greetingsMessage;
-
+    @FindBy(css = "ul[class='woocommerce-error']")
+    public WebElement loginErrorMsg;
     @FindBy(linkText = "Log out")
     public WebElement logOutButton;
 

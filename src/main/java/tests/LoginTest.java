@@ -2,31 +2,34 @@ package tests;
 
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import utils.BaseTest;
+import utils.ScreenShots;
 import utils.TestNgListener;
 
 import static org.testng.Assert.assertTrue;
 
-@Listeners(TestNgListener.class)
+//@Listeners(TestNgListener.class)
 public class LoginTest extends BaseTest {
+    @Parameters({"user", "pass"})
     @Test(priority = 1)
-    public void login(){
+    public void login(String user, String pass) {
 
         app.click(app.menu.myAccountLink);
-        app.myAccount.loginInApp("customer", "customer@123");
+        app.myAccount.loginInApp(user, pass);
         assertTrue(app.checkElementIsDisplayed(app.myAccount.greetingsMessage));
+        ScreenShots.screenShot(driver);
         app.click(app.myAccount.logOutButton);
 
     }
 
     @Test(priority = 2)
-    public void loginInvalid(){
+    public void loginInvalid() {
 
         app.click(app.menu.myAccountLink);
         app.myAccount.loginInApp("customer123", "customer@123");
-        assertTrue(app.checkElementIsDisplayed(app.myAccount.greetingsMessage));
-        app.click(app.myAccount.logOutButton);
+        assertTrue(app.checkElementIsDisplayed(app.myAccount.loginErrorMsg));
 
     }
 

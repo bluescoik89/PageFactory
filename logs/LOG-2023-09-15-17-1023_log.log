@@ -1,0 +1,21 @@
+17:10:23.149 [TestNG-tests-1] INFO  utils.Log - Chrome --> Thread id : 26
+17:10:28.087 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++
+17:10:28.087 [TestNG-tests-1] INFO  utils.Log - Started test case :login
+17:10:28.088 [TestNG-tests-1] INFO  utils.Log - Start time :2023.09.15.17.28
+17:10:28.088 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++
+17:10:28.088 [TestNG-tests-1] INFO  utils.Log - Called method<click> on  
+17:10:48.174 [TestNG-tests-1] ERROR utils.Log - ++++++++++++++++++
+17:10:48.175 [TestNG-tests-1] ERROR utils.Log - Failed test case :login
+17:10:48.185 [TestNG-tests-1] ERROR utils.Log - Fail time :2023.09.15.17.48
+17:10:48.186 [TestNG-tests-1] ERROR utils.Log - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.linkText: My account' (tried for 10 second(s) with 500 milliseconds interval)
+17:10:48.186 [TestNG-tests-1] ERROR utils.Log - +++++++++++++++++++
+17:10:48.191 [TestNG-tests-1] INFO  utils.Log - ++++++++++++++++++
+17:10:48.191 [TestNG-tests-1] INFO  utils.Log - Started test case :loginInvalid
+17:10:48.191 [TestNG-tests-1] INFO  utils.Log - Start time :2023.09.15.17.48
+17:10:48.192 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++
+17:10:48.192 [TestNG-tests-1] INFO  utils.Log - Called method<click> on  
+17:11:08.345 [TestNG-tests-1] ERROR utils.Log - ++++++++++++++++++
+17:11:08.345 [TestNG-tests-1] ERROR utils.Log - Failed test case :loginInvalid
+17:11:08.345 [TestNG-tests-1] ERROR utils.Log - Fail time :2023.09.15.17.08
+17:11:08.345 [TestNG-tests-1] ERROR utils.Log - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.linkText: My account' (tried for 10 second(s) with 500 milliseconds interval)
+17:11:08.345 [TestNG-tests-1] ERROR utils.Log - +++++++++++++++++++
